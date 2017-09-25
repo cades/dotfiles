@@ -1,0 +1,39 @@
+[user]
+	name = cades kao
+	email = cadeskao@gmail.com
+[core]
+	editor = emacs --no-desktop --quick
+	quotepath = false
+	excludesfile = /Users/cades/.gitignore_global
+[color]
+	ui = true
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	aa = add --all
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --author-date-order
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --author-date-order
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	d = diff
+	dc = diff --cached
+	po = push origin
+	pom = push origin master
+	dsf = "!git diff --color $@ | diff-so-fancy"
+	ig = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
+	praise = blame
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[diff]
+	tool = delta
+[difftool]
+	prompt = false
+[difftool "delta"]
+	cmd = delta \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[commit]
+	template = /Users/cades/.stCommitMsg
