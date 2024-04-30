@@ -47,7 +47,9 @@ Note that you may be asked for password several times during this process.
 
 ```sh
 cd .dotfiles
-.dotfiles/scripts/3-standalone-packages.sh
+.dotfiles/scripts/3-zsh.sh
+.dotfiles/scripts/4-emacs.sh
+.dotfiles/scripts/5-tmux.sh
 ```
 
 ## References
