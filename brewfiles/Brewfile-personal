@@ -1,0 +1,18 @@
+brew "exercism"
+brew "yt-dlp"
+cask "android-file-transfer"
+cask "android-studio"
+cask "audacity"
+cask "beekeeper-studio"
+cask "calibre"
+cask "discord"
+cask "dropbox"
+cask "heptabase"
+cask "kobo"
+cask "react-native-debugger"
+cask "vlc"
+mas "Compressor", id: 424390742
+mas "Discovery", id: 1381004916
+mas "Kindle Classic", id: 405399194
+mas "Final Cut Pro", id: 424389933
+mas "Whisper Transcription", id: 1668083311
