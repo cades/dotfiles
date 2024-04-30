@@ -11,5 +11,5 @@ git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs-profiles/doo
 ~/.emacs-profiles/doom-emacs/bin/doom install
 echo "[INFO][EMACS] dooomemacs installed"
 echo "[INFO][EMACS] installing spacemacs"
-git clone --branch v0.200.13 https://github.com/syl20bnr/spacemacs ~/.emacs-profiles/spacemacs
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs-profiles/spacemacs
 echo "[INFO][EMACS] spacemacs installed"
