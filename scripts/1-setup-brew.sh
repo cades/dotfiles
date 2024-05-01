@@ -5,6 +5,10 @@ xcode-select --install
 sudo xcodebuild -license accept
 echo "[INFO][XCODE] Xcode is ready"
 
+echo "[INFO][XCODE] install rosetta (for ScanSnap Home)"
+sudo softwareupdate --install-rosetta
+echo "[INFO][XCODE] rosetta installed"
+
 echo "[INFO][BREW] installing homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo "[INFO][BREW] homebrew installed"
