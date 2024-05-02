@@ -1,3 +1,4 @@
+brew "corepack"
 brew "kubernetes-cli"
 brew "kubectx"
 mas "Slack", id: 803453959
