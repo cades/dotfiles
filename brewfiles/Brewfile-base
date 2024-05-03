@@ -110,11 +110,9 @@ mas "DevCleaner", id: 1388020431
 mas "Hand Mirror", id: 1502839586
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
-mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "pomodorome", id: 1484801884
-mas "Sip", id: 507257563
 mas "Telegram", id: 747648890
 mas "Xcode", id: 497799835
 vscode "esbenp.prettier-vscode"
