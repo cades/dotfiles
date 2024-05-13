@@ -91,6 +91,7 @@ brew "zsh"
 brew "oven-sh/bun/bun"
 brew "railwaycat/emacsmacport/emacs-mac", args: ["with-native-comp", "with-native-compilation", "without-modules"]
 cask "arc"
+cask "domzilla-caffeine"
 cask "gitup"
 cask "google-cloud-sdk"
 cask "imageoptim"
@@ -104,7 +105,6 @@ cask "typora"
 cask "visual-studio-code"
 cask "xquartz"
 cask "zoom"
-mas "Amphetamine", id: 937984704
 mas "Byword", id: 420212497
 mas "DaisyDisk", id: 411643860
 mas "DevCleaner", id: 1388020431
