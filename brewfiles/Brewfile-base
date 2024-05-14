@@ -94,7 +94,6 @@ cask "arc"
 cask "domzilla-caffeine"
 cask "gitup"
 cask "google-cloud-sdk"
-cask "hiddenbar"
 cask "imageoptim"
 cask "iterm2"
 cask "karabiner-elements"
@@ -110,6 +109,7 @@ mas "Byword", id: 420212497
 mas "DaisyDisk", id: 411643860
 mas "DevCleaner", id: 1388020431
 mas "Hand Mirror", id: 1502839586
+mas "Hidden Bar", id: 1452453066
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Numbers", id: 409203825
