@@ -2,5 +2,3 @@ brew "corepack"
 brew "kubernetes-cli"
 brew "kubectx"
 brew "sops"
-mas "Slack", id: 803453959
-mas "WireGuard", id: 1451685025
